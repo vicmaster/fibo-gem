@@ -10,19 +10,23 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Victor Velazquez}]
   s.date = %q{2011-10-13}
-  s.description = %q{Fibo}
+  s.description = %q{fibo}
   s.email = %q{victor.velazquezœ@crowdint.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
   ]
   s.files = [
+    ".DS_Store",
+    ".Rakefile.swp",
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "fibo-gem.gemspec",
     "lib/fibo-gem.rb",
     "test/helper.rb",
     "test/test_fibo-gem.rb"
